@@ -4,7 +4,7 @@ Panoramica del Codice
 
 Questo codice Python è progettato per l'analisi e la previsione dei prezzi delle azioni utilizzando un modello di rete neurale LSTM (Long Short-Term Memory). Ecco una descrizione passo-passo di ciò che fa il codice:
 
-Import delle Librerie: Importa le librerie necessarie per l'analisi dei dati e la creazione del modello, tra cui Pandas, NumPy, Scikit-Learn per la manipolazione dei dati, Keras per la costruzione del modello LSTM, Matplotlib per la visualizzazione dei risultati e yfinance per scaricare i dati storici delle azioni di AAPL.
+Import delle Librerie: Importa le librerie necessarie per l'analisi dei dati e la creazione del modello, tra cui Pandas, NumPy, Scikit-Learn per la manipolazione dei dati, Keras per la costruzione del modello LSTM, Matplotlib per la visualizzazione dei risultati e yfinance per scaricare i dati storici delle azioni.
 
 Download dei Dati Storici: Utilizzando yfinance, scarica i dati storici dei prezzi.
 
