@@ -38,9 +38,7 @@ Scikit-Learn: Utilizzata per il ridimensionamento dei dati utilizzando MinMaxSca
 
 Keras: Utilizzata per la costruzione del modello LSTM e l'addestramento del modello.
 
-![image](https://github.com/DrElegantia/prevedere_Azioni/assets/143170925/d4f46062-e9e2-4747-b380-80b468fb7174)
-
-
 Matplotlib: Utilizzata per la visualizzazione dei dati tramite grafici.
 
 yfinance: Utilizzata per scaricare i dati storici delle azioni da Yahoo Finance.
+![image](https://github.com/DrElegantia/prevedere_Azioni/assets/143170925/d4f46062-e9e2-4747-b380-80b468fb7174)
