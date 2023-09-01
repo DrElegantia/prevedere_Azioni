@@ -6,7 +6,7 @@ Questo codice Python è progettato per l'analisi e la previsione dei prezzi dell
 
 Import delle Librerie: Importa le librerie necessarie per l'analisi dei dati e la creazione del modello, tra cui Pandas, NumPy, Scikit-Learn per la manipolazione dei dati, Keras per la costruzione del modello LSTM, Matplotlib per la visualizzazione dei risultati e yfinance per scaricare i dati storici delle azioni di AAPL.
 
-Download dei Dati Storici: Utilizzando yfinance, scarica i dati storici dei prezzi di AAPL dal 1 gennaio 2012 al 18 dicembre 2019.
+Download dei Dati Storici: Utilizzando yfinance, scarica i dati storici dei prezzi.
 
 Preparazione dei Dati: Ridimensiona i dati tra 0 e 1 utilizzando lo scaler MinMaxScaler. Suddivide i dati in un set di addestramento e un set di test. Crea sequenze di input e output per addestrare il modello LSTM.
 
