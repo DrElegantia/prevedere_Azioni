@@ -8,21 +8,21 @@ Import delle Librerie: Importa le librerie necessarie per l'analisi dei dati e l
 
 Download dei Dati Storici: Utilizzando yfinance, scarica i dati storici dei prezzi.
 
-Preparazione dei Dati: Ridimensiona i dati tra 0 e 1 utilizzando lo scaler MinMaxScaler. Suddivide i dati in un set di addestramento e un set di test. Crea sequenze di input e output per addestrare il modello LSTM.
+Preparazione dei Dati: Ridimensiona i dati tra 0 e 1 utilizzando lo scaler MinMaxScaler (assumo la normalità). Suddivide i dati in un set di addestramento e un set di test. Crea sequenze di input e output per addestrare il modello LSTM.
 
 Costruzione del Modello LSTM: Crea un modello sequenziale con due layer LSTM, un layer denso di output e specifica la funzione di perdita e l'ottimizzatore per il modello.
 
 Addestramento del Modello: Addestra il modello LSTM utilizzando i dati di addestramento.
 
-Previsioni dei Prezzi: Utilizza il modello addestrato per fare previsioni sui prezzi delle azioni di AAPL nel set di dati di test. Inverte la scala delle previsioni per ottenere i prezzi effettivi previsti.
+Previsioni dei Prezzi: Utilizza il modello addestrato per fare previsioni sui prezzi delle azioni nel set di dati di test. Inverte la scala delle previsioni per ottenere i prezzi effettivi previsti.
 
 Valutazione delle Prestazioni: Calcola la radice quadrata dell'errore quadratico medio (RMSE) tra le previsioni e i prezzi effettivi per valutare le prestazioni del modello.
 
 Visualizzazione dei Risultati: Visualizza un grafico che mostra i dati di addestramento, i dati di test e le previsioni del modello.
 
-Previsione Futura: Utilizza il modello addestrato per fare una previsione del prezzo futuro delle azioni di AAPL.
+Previsione Futura: Utilizza il modello addestrato per fare una previsione del prezzo futuro delle azioni.
 
-Confronto con i Dati Effettivi: Scarica i dati di chiusura effettivi di AAPL per il 16 e il 17 dicembre 2019 e li confronta con la previsione del modello.
+Confronto con i Dati Effettivi: Scarica i dati di chiusura effettivi per il 16 e il 17 dicembre 2019 e li confronta con la previsione del modello.
 
 Struttura del Codice
 Il codice è strutturato in una serie di passaggi sequenziali, ognuno dei quali esegue una parte specifica del processo di analisi e previsione dei dati finanziari. Questi passaggi includono il download dei dati, la preparazione dei dati, la costruzione del modello, l'addestramento del modello, le previsioni e la valutazione delle prestazioni.
@@ -40,6 +40,4 @@ Keras: Utilizzata per la costruzione del modello LSTM e l'addestramento del mode
 
 Matplotlib: Utilizzata per la visualizzazione dei dati tramite grafici.
 
-yfinance: Utilizzata per scaricare i dati storici delle azioni di AAPL da Yahoo Finance.
-
-Queste librerie svolgono un ruolo fondamentale nell'analisi, nella preparazione dei dati e nella creazione del modello per effettuare previsioni sui prezzi delle azioni.
+yfinance: Utilizzata per scaricare i dati storici delle azioni da Yahoo Finance.
